@@ -10,12 +10,14 @@ function App() {
         {id: 3, subtitle: " Learn Typescript", isDone: false},
         {id: 4, subtitle: " Learn English words", isDone: false},
     ]
+
     let tasks2 = [
         {id: 1, subtitle: "HTML", isDone: true},
         {id: 2, subtitle: "JS", isDone: true},
         {id: 3, subtitle: "HTML", isDone: false},
         {id: 4, subtitle: "TypeScript", isDone: false},
     ]
+
     return (
         <>
             <ToDoList title="What to DO" tasks={tasks1}/>
