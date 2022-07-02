@@ -16,6 +16,7 @@ export function ToDoList(props:PropsType) {
 
     return (
         <div>
+
         <div>{props.title}</div>
             <input/>
             <button>Add new task</button>
