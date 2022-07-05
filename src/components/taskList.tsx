@@ -2,7 +2,8 @@ import {TasksType} from "./ToDoList";
 
 type TaskType = {
     task: Array<TasksType>
-    deleteTask:(id:number)=>void
+    deleteTask:(id:string)=>void
+
 }
 
 export function TaskList(props: TaskType) {
